@@ -51,11 +51,13 @@ body {
     padding-right: 50px;
 }
 
-.header-nav> div > p {
+.header-nav> div > a {
     min-width: 50px;
     font-size: 20px;
     text-align: center;
     border-bottom: 2px solid ;
+    text-decoration: none;
+    color: white
 }
 
 header {
@@ -142,7 +144,7 @@ header > figcaption {
     width: 80%;
 }
 
-.project-container > article {
+.project-container > a {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -152,7 +154,7 @@ header > figcaption {
     
 }
 
-.project-container > article > img {
+.project-container > a > img {
     flex-shrink: 1;
     width: 100%;
     max-height: 300px;
@@ -168,19 +170,26 @@ header > figcaption {
     width: 100%;
 }
 
-.project-container > div > article {
+.project-container > div > a {
     display: flex;
     justify-content: center;
     flex-grow: 1;
 }
 
-.project-container > div > article > img {
+.project-container > div > a > img {
     flex-shrink: 1;
     max-height: 300px;
     border: 2px solid var(--dark);
     padding: 10px;
     margin: 10px;
     width: 100%;
+}
+
+.project-container > div > a:hover, 
+ .project-container > a:hover {
+    box-shadow: inset 0px 0px 8px 
+   var(--dark), 0 0 15px 
+   var(--dark);
 }
 
 .work > div > p {
@@ -250,13 +259,10 @@ a {
     }
     
     .contact > div > ul {
-        /* display: block; */
         list-style: none;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        /* flex-wrap: wrap; */
-        /* flex-shrink: 1; */
         width: 80%;
         height: 225px;
         padding: 0px;
