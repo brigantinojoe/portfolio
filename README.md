@@ -13,10 +13,10 @@ There is no installation necessary. Please [visit this](https://brigantinojoe.gi
 ## Usage
 The navigation bar on the top right corner of the web page will direct you to each particular section. Here's what the navigation bar looks like: 
 
-![Navigation](./Assets/images/brick.jpg)
+![Navigation](./Assets/images/navigation.jpg)
 
 Simply click one of those options, and it'll direct you to the corresponding section.
 
 Additionally, you can click the images from the following section to open my other projects.
 
-![Work Section](./Assets/images/brick.jpg)
+![Work Section](./Assets/images/work.jpg)
