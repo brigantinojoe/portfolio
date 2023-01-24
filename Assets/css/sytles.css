@@ -20,17 +20,13 @@ body {
 
 .header-nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    align-content: center;
     flex-wrap: wrap;
     background-image: linear-gradient(
         rgba(93, 12, 243, 0.795) 0%,
         rgba(66, 11, 168, 0.3) 100%
     );      
     color: var(--white);
-    width: 100%;
 }
 
 .header-nav > h1 {
@@ -47,12 +43,11 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-left: auto;
-    width: 400px;
+    width: 300px;
     padding-right: 50px;
 }
 
 .header-nav> div > a {
-    min-width: 50px;
     font-size: 20px;
     text-align: center;
     border-bottom: 2px solid ;
@@ -76,14 +71,11 @@ header > figcaption {
     align-self: flex-end;
     padding-right: 25px;
     margin-top: -25px;
-    align-items: right;
     position: relative;
 }
 
 .about-me, .contact {
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 25px;
@@ -106,23 +98,20 @@ header > figcaption {
     display: flex;
     align-items: center;
     width: 80%;
+    height: auto;
 }
 
 .about-me > div > p {
     padding-left: 10px;
     font-size: 15px;
-    max-height: 300px;
+    height: auto;
 }
 
 .work {
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
     justify-content: center;
-    flex-wrap: wrap;
     margin-top: 50px;
     font-size: 30px;
-    flex-shrink: 1;
 }
 
 .work > aside {
@@ -233,6 +222,7 @@ a {
         align-content: center;
         align-items: center;
         flex-wrap: wrap;
+        height: auto;
     }
 
     .about-me > aside, .contact > aside {
@@ -294,7 +284,7 @@ a {
 
     }
 
-    @media (max-width: 485px) {
+    /* @media (max-width: 485px) {
         .work {
             margin-top: 200px;
         }
@@ -313,4 +303,4 @@ a {
         .work {
             margin-top: 400px;
         }
-    }
+    } */
